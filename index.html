@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="src/main.js"></script>
+    <script type="text/javascript" src="src/age.js"></script>
     <!-- <script type="text/javascript" src="src/triangle.js"></script> -->
     <link rel="stylesheet" href="css/styles.css">
-    <title>Shape Tracker</title>
+    <title>Galactic Age Calculator</title>
   </head>
   <body>
     <div class="container">
       <div class="group-std">
-        <button type="submit" class="btn">GO</button>
+        <form id="formMain">
+          <div class="form-group">
+            <label for="nameInput">Please input your name</label>
+            <input id="nameInput" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="ageInput">Please input your age</label>
+            <input id="ageInput" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-primary">LIFT OFF!</button>
+        </form>
       </div>
     </div>
   </body>
