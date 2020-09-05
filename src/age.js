@@ -1,4 +1,4 @@
-function Age(name,age) {
+export default function Age(name,age) {
   this.name = name;
   this.age = age;
 }

@@ -1,3 +1,6 @@
+import Age from './age.js';
+import './css/styles.css';
+
 $(document).ready(function() {
   $('#formMain').submit(function(event) {
     event.preventDefault();
