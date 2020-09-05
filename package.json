@@ -1,0 +1,21 @@
+{
+  "name": "galactic-age",
+  "version": "1.0.0",
+  "description": "#### Calculates and displays the user's age in various galactic forms, 2020",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {
+    "webpack": "^4.39.3"
+  }
+}
