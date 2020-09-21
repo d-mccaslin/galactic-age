@@ -15,6 +15,15 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * Use <strong>npm run start</strong> to start a live server and run the application through your browser
 * The recommended editor for viewing the application is Visual Studio Code
 
+## Specs & Tests
+
+* <strong>Spec: </strong> The application will create an Age object which stores the inputted age.
+  * <strong>Input: </strong> age(50)
+  * <strong>Output: </strong> 50
+* <strong>Spec: </strong> The application will return the inputted age in Mercury years, using a .24 conversion rate.
+  * <strong>Input: </strong> age(26.4)
+  * <strong>Output: </strong> 110
+
 ## Known Bugs
 
 There are no known bugs. The application is optimzed for a desktop and is not guaranteed to be fully viewable on all devices.

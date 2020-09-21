@@ -6,8 +6,9 @@ describe('Age', () => {
     const age = new Age('test',5);
     expect(age.age).toEqual(5);
   });
-  test('should return double the inputted age', () => {
-    const age= new Age('test',5);
-    expect(age.doubleAge()).toEqual(10);
+  test('should return the age in Mercury years, expecting a value .24 * the inputted value', () => {
+    const age = new Age('test',26.4);
+    expect(age.mercuryAge).toEqual(110);
   });
+
 });
