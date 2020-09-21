@@ -8,7 +8,7 @@ describe('Age', () => {
   });
   test('should return the age in Mercury years, expecting a value .24 * the inputted value', () => {
     const age = new Age('test',26.4);
-    expect(age.mercuryAge).toEqual(110);
+    expect(age.mercuryAge()).toEqual(110);
   });
 
 });
