@@ -11,8 +11,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ## Setup/Installation Requirements
 
 * Find repository on GitHub or otherwise obtain repo link
-* Clone, fork, or otherwise download the project
-* Run the project through a local server, live server, directly in the browser, or any method of your choosing
+* Clone or download repository
+* Use <strong>npm run start</strong> to start a live server and run the application through your browser
 * The recommended editor for viewing the application is Visual Studio Code
 
 ## Known Bugs
@@ -25,8 +25,8 @@ Contact: davidmccaslin94@gmail.com
 
 ## Technologies Used
 
-* Languages: HTML, CSS, JavaScript
-* Libraries: Bootstrap, jQuery, NPM
+* Languages: HTML, CSS, JavaScript (ES6)
+* Libraries: Bootstrap, jQuery, npm
 * Development Tools: Visual Studio Code, Git, GitHub
 
 ### License
