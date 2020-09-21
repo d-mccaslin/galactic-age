@@ -4,8 +4,8 @@ export default class Age {
     this.age = age;
   }
 
-  doubleAge() {
-    return this.age * 2;
+  mercuryAge() {
+    return this.age / (.24);
   }
 
 }
