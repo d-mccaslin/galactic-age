@@ -29,6 +29,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * <strong>Spec: </strong> The application will return the inputted age in Mars years, assuming a Mars year is 1.88 Earth years.
   * <strong>Input: </strong> age(94)
   * <strong>Output: </strong> 50
+* <strong>Spec: </strong> The application will return the inputted age in Jupiter years, assuming a Jupiter year is 11.86 Earth years.
+  * <strong>Input: </strong> age(237.2)
+  * <strong>Output: </strong> 20
 
 ## Known Bugs
 
