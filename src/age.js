@@ -12,4 +12,8 @@ export default class Age {
     return this.age / (.62);
   }
 
+  marsAge() {
+    return this.age / (1.88);
+  }
+
 }
