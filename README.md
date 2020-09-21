@@ -20,7 +20,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * <strong>Spec: </strong> The application will create an Age object which stores the inputted age.
   * <strong>Input: </strong> age(50)
   * <strong>Output: </strong> 50
-* <strong>Spec: </strong> The application will return the inputted age in Mercury years, using a .24 conversion rate.
+* <strong>Spec: </strong> The application will return the inputted age in Mercury years, assuming a Mercury year is .24 Earth years.
   * <strong>Input: </strong> age(26.4)
   * <strong>Output: </strong> 110
 
