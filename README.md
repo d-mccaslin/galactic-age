@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This application allows uers to input an age and returns the age of the user in years for various planets. For example, a user inputted their age as roughly 25 will receive a value over 100 for their age in Mercury years. The app bases calculations off the conversion between each planet's year and Earth's year.
 
 ## Setup/Installation Requirements
 
@@ -32,6 +32,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * <strong>Spec: </strong> The application will return the inputted age in Jupiter years, assuming a Jupiter year is 11.86 Earth years.
   * <strong>Input: </strong> age(237.2)
   * <strong>Output: </strong> 20
+
 
 ## Known Bugs
 
