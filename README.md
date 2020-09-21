@@ -23,6 +23,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * <strong>Spec: </strong> The application will return the inputted age in Mercury years, assuming a Mercury year is .24 Earth years.
   * <strong>Input: </strong> age(26.4)
   * <strong>Output: </strong> 110
+* <strong>Spec: </strong> The application will return the inputted age in Venus years, assuming a Venus year is .62 Earth years.
+  * <strong>Input: </strong> age(49.6)
+  * <strong>Output: </strong> 80
 
 ## Known Bugs
 

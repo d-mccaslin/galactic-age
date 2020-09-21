@@ -10,5 +10,9 @@ describe('Age', () => {
     const age = new Age('test',26.4);
     expect(age.mercuryAge()).toEqual(110);
   });
+  test('should return the age in Venus years, assuming a Venus year is .62 Earth years', () => {
+    const age = new Age('test',49.6);
+    expect(age.venusAge()).toEqual(80);
+  })
 
 });
