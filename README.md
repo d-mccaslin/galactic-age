@@ -26,7 +26,7 @@ Contact: davidmccaslin94@gmail.com
 ## Technologies Used
 
 * Languages: HTML, CSS, JavaScript
-* Libraries: Bootstrap, jQuery
+* Libraries: Bootstrap, jQuery, NPM
 * Development Tools: Visual Studio Code, Git, GitHub
 
 ### License
