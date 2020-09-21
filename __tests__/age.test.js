@@ -8,6 +8,6 @@ describe('Age', () => {
   });
   test('should return double the inputted age', () => {
     const age= new Age('test',5);
-    expect(age.doubleAge).toEqual(10);
+    expect(age.doubleAge()).toEqual(10);
   });
 });
