@@ -40,3 +40,8 @@ Age.prototype.marsYearsLeft = function() {
   return marsLifeExpectancy - currentAge;
 }
 
+Age.prototype.jupiterYearsLeft = function() {
+  const jupiterLifeExpectancy = this.averageLife / (11.86);
+  const currentAge = this.jupiterAge();
+  return jupiterLifeExpectancy - currentAge;
+}
