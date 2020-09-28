@@ -32,7 +32,8 @@ Age.prototype.mercuryYearsLeft = function() {
 Age.prototype.venusYearsLeft = function() {
   const venusLifeExpectancy = this.averageLife / (.62);
   const currentAge = this.venusAge();
-  return venusLifeExpectancy - currentAge;
+  const yearsLeft = venusLifeExpectancy - currentAge;
+  return Math.abs(yearsLeft);
 }
 
 Age.prototype.marsYearsLeft = function() {
