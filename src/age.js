@@ -21,3 +21,9 @@ Age.prototype.marsAge = function() {
 Age.prototype.jupiterAge = function() {
   return this.age / (11.86);
 };
+
+Age.prototype.mercuryYearsLeft = function() {
+  const mercuryLifeExpectancy = this.averageLife / (.24);
+  const currentAge = this.mercuryAge();
+  return mercuryLifeExpectancy - currentAge;
+}
