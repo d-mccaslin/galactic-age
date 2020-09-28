@@ -26,5 +26,9 @@ describe('Age', () => {
     const age = new Age('test',26.4,48);
     expect(age.mercuryYearsLeft()).toEqual(90);
   })
+  test('should return the amount of years left to live on Venus, given an average life expectancy', () => {
+    const age = new Age('test',49.6,124);
+    expect(age.venusYearsLeft()).toEqual(120);
+  })
 
 });
