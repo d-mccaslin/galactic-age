@@ -10,9 +10,11 @@ This application allows uers to input an age and returns the age of the user in 
 
 ## Setup/Installation Requirements
 
-* Find repository on GitHub or otherwise obtain repo link
+* Find repository on GitHub
 * Clone or download repository
-* Use <strong>npm run start</strong> to start a live server and run the application through your browser
+* From your terminal, navigate to the project's root directory
+* Use <strong>npm install</strong> command install necessary dependencies
+* Use <strong>npm run test</strong> to view the results and details of project specs/tests
 * The recommended editor for viewing the application is Visual Studio Code
 
 ## Specs & Tests
