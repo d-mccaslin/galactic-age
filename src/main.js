@@ -10,8 +10,9 @@ $(document).ready(function() {
     //debugger;
     const nameField = $('#nameInput').val();
     const ageField = parseFloat($('#ageInput').val());
+    const expectancyField = parseFloat($('#expectancyInput').val());
 
-    const age = new Age(nameField,ageField);
+    const age = new Age(nameField,ageField,expectancyField);
     console.log(age.age);
     console.log("Mercury " + age.mercuryAge());
     console.log("Venus " + age.venusAge());
@@ -19,6 +20,7 @@ $(document).ready(function() {
     console.log("Jupiter " + age.jupiterAge());
 
     console.log(" ");
+    console.log("Mercury years left " + age.mercuryYearsLeft());
 
   })
 })
