@@ -30,5 +30,9 @@ describe('Age', () => {
     const age = new Age('test',49.6,124);
     expect(age.venusYearsLeft()).toEqual(120);
   })
+  test('should return the amount of years left to live on Mars, given an average life expectancy', () => {
+    const age = new Age('test',94,188);
+    expect(age.marsYearsLeft()).toEqual(50);
+  })
 
 });
