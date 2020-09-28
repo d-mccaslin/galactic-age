@@ -42,9 +42,12 @@ describe('Age', () => {
     const age = new Age('test',26.4,16.8);
     expect(age.mercuryYearsLeft()).toEqual(40);
   })
-  test('should return the amount of years the the average life expectancy has been exceeded on Venus', () => {
+  test('should return the amount of years that the average life expectancy has been exceeded on Venus', () => {
     const age = new Age('test',49.6,31);
     expect(age.venusYearsLeft()).toEqual(30);
-  
+  })
+  test('should return the amount of years that the average life expectancy has been exceeded on Mars', () => {
+    const age = new Age('test',94,3.76);
+    expect(age.marsYearsLeft()).toEqual(48);
   })
 });
