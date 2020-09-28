@@ -13,14 +13,5 @@ $(document).ready(function() {
     const expectancyField = parseFloat($('#expectancyInput').val());
 
     const age = new Age(nameField,ageField,expectancyField);
-    console.log(age.age);
-    console.log("Mercury " + age.mercuryAge());
-    console.log("Venus " + age.venusAge());
-    console.log("Mars " + age.marsAge());
-    console.log("Jupiter " + age.jupiterAge());
-
-    console.log(" ");
-    console.log("Mercury years left " + age.mercuryYearsLeft());
-
   })
 })
